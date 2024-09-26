@@ -6,12 +6,11 @@ A movie recommendation system is a software application that suggests movies to 
 **Key Components and Steps:**
 
 1. **Data Collection:**
-   * Gather a comprehensive dataset of movie ratings and metadata (e.g., genre, director, actors).
-   * Popular datasets include MovieLens and IMDb.
+   * Gather a comprehensive dataset of movie ratings and metadata (e.g., genre, popularity, runtime).
+   * Datasets includes budget and vote count.
 
 2. **Data Preprocessing:**
    * Clean and prepare the data for analysis.
-   * Handle missing values, outliers, and inconsistencies.
    * Normalize or standardize numerical features.
 
 3. **Feature Engineering:**
@@ -30,11 +29,5 @@ A movie recommendation system is a software application that suggests movies to 
 * **Surprise:** A Python library specifically designed for collaborative filtering.
 * **TensorFlow or PyTorch:** For deep learning approaches (if applicable).
 
-**Additional Considerations:**
 
-* **Scalability:** If dealing with large datasets, consider distributed computing frameworks like Apache Spark.
-* **Real-time Recommendations:** Explore techniques like online learning to update recommendations as new data becomes available.
-* **User Interface:** Develop a user-friendly interface to interact with the recommendation system.
-
-By following these steps and leveraging the power of Python and machine learning algorithms, you can create a robust and effective movie recommendation system.
 
